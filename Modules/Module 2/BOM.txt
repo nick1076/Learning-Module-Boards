@@ -1,0 +1,2 @@
+ATtiny Board: https://www.digikey.com/en/mylists/list/7HNO2UGR1X
+FTDI Board: https://www.digikey.com/en/mylists/list/RP1A8WW97W

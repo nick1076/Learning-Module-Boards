@@ -11,244 +11,6 @@
 		(company "Nicholas Niles")
 	)
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack_Switch"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Barrel_Jack_Switch"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 1.27 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "DC Barrel Jack with an internal switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.286) (xy 1.905 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1764,7 +1526,7 @@
 		)
 	)
 	(rectangle
-		(start 74.93 48.26)
+		(start 81.28 48.26)
 		(end 115.57 86.36)
 		(stroke
 			(width 0)
@@ -1802,7 +1564,7 @@
 	)
 	(text "Power Input"
 		(exclude_from_sim no)
-		(at 74.93 48.26 0)
+		(at 81.28 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1831,16 +1593,6 @@
 		(color 0 0 0 0)
 		(uuid "90dfced7-3291-4e51-adbf-3353ce9932f2")
 	)
-	(junction
-		(at 96.52 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e27f2ae7-eb8b-43d2-9bea-96b9fb9b81cb")
-	)
-	(no_connect
-		(at 93.98 59.69)
-		(uuid "aee8d3b3-44b1-4dce-9b31-828cf300ed84")
-	)
 	(wire
 		(pts
 			(xy 139.7 67.31) (xy 130.81 67.31)
@@ -1850,26 +1602,6 @@
 			(type default)
 		)
 		(uuid "0e3dbe04-b73c-492c-acad-52cfecefb230")
-	)
-	(wire
-		(pts
-			(xy 96.52 62.23) (xy 96.52 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1151bba0-b660-44d0-b121-813cd2c02124")
-	)
-	(wire
-		(pts
-			(xy 180.34 69.85) (xy 182.88 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b0dffda-0409-4b3a-9f31-fdf10632f51b")
 	)
 	(wire
 		(pts
@@ -1893,17 +1625,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 69.85) (xy 182.88 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28a7ab6e-9413-491f-9e8a-c466d569e5ff")
-	)
-	(wire
-		(pts
-			(xy 93.98 68.58) (xy 99.06 68.58)
+			(xy 93.98 57.15) (xy 99.06 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1923,7 +1645,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 71.12) (xy 96.52 73.66)
+			(xy 96.52 59.69) (xy 96.52 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 71.12) (xy 93.98 71.12)
+			(xy 96.52 59.69) (xy 93.98 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2023,26 +1745,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 62.23) (xy 96.52 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86d419d7-56d5-46fc-a158-0fdd4491b056")
-	)
-	(wire
-		(pts
-			(xy 93.98 57.15) (xy 99.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ec3110f-3b56-43f6-bbf6-1953b95e5730")
-	)
-	(wire
-		(pts
 			(xy 128.27 67.31) (xy 130.81 67.31)
 		)
 		(stroke
@@ -2060,16 +1762,6 @@
 			(type default)
 		)
 		(uuid "9b0c7600-ce5c-41a0-a74f-edd4e9c1a70d")
-	)
-	(wire
-		(pts
-			(xy 99.06 68.58) (xy 99.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e48133-dd61-4446-bd9a-83f5ff3d8848")
 	)
 	(wire
 		(pts
@@ -2113,6 +1805,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 69.85) (xy 180.34 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcedf1a0-d4b6-4f16-98c4-56bc544cbeb9")
+	)
+	(wire
+		(pts
 			(xy 137.16 85.09) (xy 137.16 86.36)
 		)
 		(stroke
@@ -2120,6 +1822,16 @@
 			(type default)
 		)
 		(uuid "c1d228ca-5f35-4cc3-977e-bd7854ab2da7")
+	)
+	(wire
+		(pts
+			(xy 182.88 72.39) (xy 182.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9819d86-7e4c-4acc-a56f-3ee530dbdd73")
 	)
 	(wire
 		(pts
@@ -2764,83 +2476,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+9V")
-		(at 182.88 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3036a3a-9bcb-40d3-b29e-cc21e3884359")
-		(property "Reference" "#PWR09"
-			(at 182.88 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "9V0"
-			(at 182.88 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 182.88 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab74c979-191c-4abc-b485-41b42013902f")
-		)
-		(instances
-			(project "555Board"
-				(path "/da7c74d4-3236-4bd3-a2b3-890a5a1818eb"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 149.86 82.55 0)
 		(unit 1)
@@ -2996,7 +2631,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 96.52 73.66 0)
+		(at 96.52 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3006,7 +2641,7 @@
 		(dnp no)
 		(uuid "d75be1b9-74b5-4186-bf0c-695de1ad2b3f")
 		(property "Reference" "#PWR01"
-			(at 96.52 80.01 0)
+			(at 96.52 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3017,7 +2652,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 77.978 0)
+			(at 96.52 66.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3027,7 +2662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 73.66 0)
+			(at 96.52 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3038,7 +2673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 73.66 0)
+			(at 96.52 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3049,7 +2684,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 96.52 73.66 0)
+			(at 96.52 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3073,7 +2708,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 88.9 68.58 0)
+		(at 88.9 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3083,7 +2718,7 @@
 		(dnp no)
 		(uuid "da39d7f9-0984-4def-bfb3-26f70bed320d")
 		(property "Reference" "J2"
-			(at 89.154 67.056 0)
+			(at 89.154 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3093,7 +2728,7 @@
 			)
 		)
 		(property "Value" "2.54mm 1x2 Header"
-			(at 85.852 72.644 0)
+			(at 92.202 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3102,8 +2737,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 88.9 68.58 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+			(at 88.9 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3114,7 +2749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 68.58 0)
+			(at 88.9 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3125,7 +2760,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 88.9 68.58 0)
+			(at 88.9 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3222,6 +2857,83 @@
 			(project "555Board"
 				(path "/da7c74d4-3236-4bd3-a2b3-890a5a1818eb"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 182.88 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1d9541a-ddb3-4e53-a950-039f9024d973")
+		(property "Reference" "#PWR09"
+			(at 182.88 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 76.708 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 182.88 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a89a885e-d994-4b97-a108-4440ede98505")
+		)
+		(instances
+			(project "555Board"
+				(path "/da7c74d4-3236-4bd3-a2b3-890a5a1818eb"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3455,88 +3167,6 @@
 			(project "555Board"
 				(path "/da7c74d4-3236-4bd3-a2b3-890a5a1818eb"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 86.36 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "faf2e4f6-a6bb-4687-9876-bf62d871d72a")
-		(property "Reference" "J1"
-			(at 86.36 52.578 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel Jack"
-			(at 86.36 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
-			(at 87.63 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 86.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bee71baf-16b9-4f91-a812-bcdca51e4281")
-		)
-		(pin "2"
-			(uuid "529868e8-269d-41a0-b60f-98e1d1d7a452")
-		)
-		(pin "3"
-			(uuid "7f3fb029-8b14-4844-81c8-1d188e70134b")
-		)
-		(instances
-			(project "555Board"
-				(path "/da7c74d4-3236-4bd3-a2b3-890a5a1818eb"
-					(reference "J1")
 					(unit 1)
 				)
 			)
