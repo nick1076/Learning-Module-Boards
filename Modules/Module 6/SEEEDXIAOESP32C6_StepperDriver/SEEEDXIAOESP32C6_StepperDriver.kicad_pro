@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ATtinyBoard.kicad_pro",
+    "filename": "SEEEDXIAOESP32C6_StepperDriver.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,9 +643,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ATtinyBoard.kicad_sch",
+        "filename": "SEEEDXIAOESP32C6_StepperDriver.kicad_sch",
         "name": "Root",
-        "uuid": "c085ac83-cca8-42f2-84ee-3027d9509509"
+        "uuid": "14ce0ff2-360a-48f9-8bfe-b5413fde9b1b"
       }
     ],
     "used_designators": "",
@@ -653,7 +653,7 @@
   },
   "sheets": [
     [
-      "c085ac83-cca8-42f2-84ee-3027d9509509",
+      "14ce0ff2-360a-48f9-8bfe-b5413fde9b1b",
       "Root"
     ]
   ],
