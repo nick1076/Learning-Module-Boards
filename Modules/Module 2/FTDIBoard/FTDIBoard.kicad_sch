@@ -2424,6 +2424,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "**Make sure MCU is running at 5V"
+		(exclude_from_sim no)
+		(at 185.42 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3aec46a9-8c09-4441-b324-b2f5745fe3ed")
+	)
 	(text "5V\nUPDI\nGND"
 		(exclude_from_sim no)
 		(at 221.234 76.2 0)
