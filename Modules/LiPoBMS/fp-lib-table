@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "MCP73831T-2ACI") (type "KiCad") (uri "${KIPRJMOD}/MCP73831T-2ACI.pretty") (options "") (descr ""))
+)

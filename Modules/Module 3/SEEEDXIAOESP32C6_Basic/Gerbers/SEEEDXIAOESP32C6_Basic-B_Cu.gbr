@@ -1,0 +1,69 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*
+G04 #@! TF.CreationDate,2026-07-16T11:58:26-04:00*
+G04 #@! TF.ProjectId,SEEEDXIAOESP32C6_Basic,53454545-4458-4494-914f-455350333243,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L2,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-07-16 11:58:26*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD10R,1.700000X1.700000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD11C,1.700000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.P,J1,1,Pin_1_1*
+G04 #@! TO.N,unconnected-(J1-Pin_1-Pad1)*
+X156130000Y-85190000D03*
+D11*
+G04 #@! TO.P,J1,2,Pin_2_2*
+G04 #@! TO.N,GND*
+X156130000Y-87730000D03*
+G04 #@! TO.P,J1,3,Pin_3_3*
+G04 #@! TO.N,unconnected-(J1-Pin_3-Pad3)*
+X156130000Y-90270000D03*
+G04 #@! TO.P,J1,4,Pin_4_4*
+G04 #@! TO.N,unconnected-(J1-Pin_4-Pad4)*
+X156130000Y-92810000D03*
+G04 #@! TO.P,J1,5,Pin_5_5*
+G04 #@! TO.N,unconnected-(J1-Pin_5-Pad5)*
+X156130000Y-95350000D03*
+G04 #@! TO.P,J1,6,Pin_6_6*
+G04 #@! TO.N,unconnected-(J1-Pin_6-Pad6)*
+X156130000Y-97890000D03*
+G04 #@! TO.P,J1,7,Pin_7_7*
+G04 #@! TO.N,unconnected-(J1-Pin_7-Pad7)*
+X156130000Y-100430000D03*
+G04 #@! TD*
+D10*
+G04 #@! TO.P,J2,1,Pin_1_1*
+G04 #@! TO.N,unconnected-(J2-Pin_1-Pad1)*
+X140880000Y-85200000D03*
+D11*
+G04 #@! TO.P,J2,2,Pin_2_2*
+G04 #@! TO.N,Net-(J2-Pin_2)*
+X140880000Y-87740000D03*
+G04 #@! TO.P,J2,3,Pin_3_3*
+G04 #@! TO.N,unconnected-(J2-Pin_3-Pad3)*
+X140880000Y-90280000D03*
+G04 #@! TO.P,J2,4,Pin_4_4*
+G04 #@! TO.N,Net-(D1-A)*
+X140880000Y-92820000D03*
+G04 #@! TO.P,J2,5,Pin_5_5*
+G04 #@! TO.N,unconnected-(J2-Pin_5-Pad5)*
+X140880000Y-95360000D03*
+G04 #@! TO.P,J2,6,Pin_6_6*
+G04 #@! TO.N,unconnected-(J2-Pin_6-Pad6)*
+X140880000Y-97900000D03*
+G04 #@! TO.P,J2,7,Pin_7_7*
+G04 #@! TO.N,unconnected-(J2-Pin_7-Pad7)*
+X140880000Y-100440000D03*
+G04 #@! TD*
+M02*

@@ -1297,6 +1297,30 @@
 		(uuid "0e4df916-551b-4caa-ba12-cc16f2a1f7d1")
 	)
 	(junction
+		(at 172.72 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69d4131f-74a1-4562-9801-2fe30aa25e82")
+	)
+	(junction
+		(at 153.67 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dc6e71b-6670-48d2-a8e5-7bfc224eb46d")
+	)
+	(junction
+		(at 172.72 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81b10eca-66bf-495c-bf51-6ea8fd82c06d")
+	)
+	(junction
+		(at 153.67 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0b61c9c-edd5-4007-a7c9-7ca09fc65f06")
+	)
+	(junction
 		(at 144.78 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1314,7 +1338,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 124.46) (xy 157.48 130.81)
+			(xy 153.67 119.38) (xy 153.67 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1324,13 +1348,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 116.84) (xy 157.48 110.49)
+			(xy 153.67 111.76) (xy 153.67 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a90583c-e277-4537-9df2-b51cfcc2a70a")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 181.61 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15295ed4-675f-4960-995d-d8a3aa627ae8")
 	)
 	(wire
 		(pts
@@ -1344,7 +1378,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 110.49) (xy 144.78 110.49)
+			(xy 153.67 130.81) (xy 172.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b011619-5f57-4296-bed1-977adf652370")
+	)
+	(wire
+		(pts
+			(xy 153.67 110.49) (xy 144.78 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1438,37 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 130.81) (xy 144.78 130.81)
+			(xy 181.61 110.49) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b742c7d-fecf-4433-bf22-da3905e778dc")
+	)
+	(wire
+		(pts
+			(xy 172.72 130.81) (xy 181.61 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940231ab-d361-43d3-afc8-c20c82a08085")
+	)
+	(wire
+		(pts
+			(xy 172.72 113.03) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03e60c4-e865-4078-affa-865b62af03fe")
+	)
+	(wire
+		(pts
+			(xy 153.67 130.81) (xy 144.78 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1424,6 +1498,36 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 110.49) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2932fe-51b6-472f-af32-0dfaabb9d787")
+	)
+	(wire
+		(pts
+			(xy 172.72 130.81) (xy 172.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca865276-564c-4916-b5ac-6b5a158169ac")
+	)
+	(wire
+		(pts
+			(xy 152.4 120.65) (xy 165.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ded4fc-ef15-4a41-9f7b-0cff7b03849a")
+	)
+	(wire
+		(pts
 			(xy 154.94 91.44) (xy 154.94 95.25)
 		)
 		(stroke
@@ -1441,6 +1545,16 @@
 			(type default)
 		)
 		(uuid "f2dff6b1-f5ee-4923-916c-5fa4123f9421")
+	)
+	(wire
+		(pts
+			(xy 181.61 111.76) (xy 181.61 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4379d8c-3718-49d4-bcdc-11b9f8d7297b")
 	)
 	(wire
 		(pts
@@ -1726,6 +1840,93 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 172.72 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45db4758-9908-4e54-a593-17fd7b09b240")
+		(property "Reference" "D3"
+			(at 160.02 112.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 163.068 114.808 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 173.99 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 175.26 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 172.72 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5920c45f-592d-44dd-9b4b-49218edb14a3")
+		)
+		(pin "2"
+			(uuid "b6be8511-57dc-42f9-a9d5-2900a8ff156f")
+		)
+		(pin "3"
+			(uuid "db7617ac-9cfd-46ab-9ba5-9c1677df8516")
+		)
+		(pin "4"
+			(uuid "fc17ea6e-531b-4572-9a14-6e86c6655158")
+		)
+		(instances
+			(project "SEEEDXIAOESP32C6_Neopixel"
+				(path "/14ce0ff2-360a-48f9-8bfe-b5413fde9b1b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 144.78 107.95 0)
 		(unit 1)
@@ -1804,7 +2005,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 157.48 120.65 0)
+		(at 153.67 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1814,7 +2015,7 @@
 		(dnp no)
 		(uuid "7748a60d-32e5-4e11-aaa9-f168141dbfd8")
 		(property "Reference" "C1"
-			(at 158.242 118.364 0)
+			(at 154.432 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1825,7 +2026,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 158.242 123.19 0)
+			(at 154.432 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1836,7 +2037,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 158.4452 124.46 0)
+			(at 154.6352 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1847,7 +2048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 120.65 0)
+			(at 153.67 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1858,7 +2059,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 157.48 120.65 0)
+			(at 153.67 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2052,6 +2253,87 @@
 			(project "SEEEDXIAOESP32C6_Neopixel"
 				(path "/14ce0ff2-360a-48f9-8bfe-b5413fde9b1b"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 181.61 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c549d68a-005c-4f76-8b66-b724de691954")
+		(property "Reference" "C2"
+			(at 182.372 113.284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 182.372 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 182.5752 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 181.61 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bc68544d-6bc8-4cfa-a347-66eb6faa6977")
+		)
+		(pin "1"
+			(uuid "e8989b71-9cc6-45f1-8a9c-1a899bf9cf7e")
+		)
+		(instances
+			(project "SEEEDXIAOESP32C6_Neopixel"
+				(path "/14ce0ff2-360a-48f9-8bfe-b5413fde9b1b"
+					(reference "C2")
 					(unit 1)
 				)
 			)
