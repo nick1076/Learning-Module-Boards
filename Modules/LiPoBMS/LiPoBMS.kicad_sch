@@ -1246,6 +1246,36 @@
 		)
 		(uuid "376bff06-6f2d-49b6-8dba-ce12485fd649")
 	)
+	(text "(https://cdn.sparkfun.com/datasheets/Components/General%20IC/33244_SPCN.pdf)"
+		(exclude_from_sim no)
+		(at 247.142 109.728 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "39ba1dc3-e6c9-4b91-a18b-7a062d33ecbd")
+	)
+	(text "See page 7 of datasheet: "
+		(exclude_from_sim no)
+		(at 227.076 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ca6fa37-d3d7-4fdf-9d8d-db6a62a3e6ee")
+	)
+	(text "33k used in Demo for 40mAh cell"
+		(exclude_from_sim no)
+		(at 230.886 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62ede5dd-6e8f-4348-b8c0-346621d71b17")
+	)
 	(text "Read Datasheet for how to set PROG resistor value!"
 		(exclude_from_sim no)
 		(at 239.522 97.028 0)
