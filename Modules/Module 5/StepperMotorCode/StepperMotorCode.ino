@@ -1,19 +1,9 @@
-/*
- * TB6612FNG - NEMA 17 bipolar stepper test
- * Board: Seeed XIAO ESP32-C6
- *
- * Coil A -> J5 pins 4 (A1) and 3 (A2)
- * Coil B -> J5 pins 2 (B1) and 1 (B2)
- *
- * The TB6612 is NOT a current-chopping stepper driver. Coil current is set
- * by PWM duty cycle: I = (VMOTOR * duty) / R_phase.  Both coils are energized
- * at all times in full-step mode, including while holding position.
- *
- * VMOTOR = 5V.  Measure R_phase before first power-up.
- */
+
+//Coil A -> J5 pins 4 (A1) and 3 (A2)
+//Coil B -> J5 pins 2 (B1) and 1 (B2)
 
 // --- Pin definitions (from schematic) ---
-const int AIN1 = D2;   // ADIR1
+ const int AIN1 = D2;   // ADIR1
 const int AIN2 = D4;   // ADIR2
 const int PWMA = D5;   // SPEEDA
 const int BIN1 = D7;   // BDIR1
@@ -79,15 +69,15 @@ void setup() {
 }
 
 void loop() {
-  // One revolution forward, medium speed
+  // One rot forward, medium speed
   rotate(STEPS_PER_REV, true, 5);
   hold(1000);
 
-  // One revolution backward, slower
+  // One rot backward, slower
   rotate(STEPS_PER_REV, false, 10);
   hold(1000);
 
-  // Half revolution forward, faster
+  // Half rot forward, faster
   rotate(STEPS_PER_REV / 2, true, 3);
   hold(1000);
 
@@ -97,7 +87,7 @@ void loop() {
   digitalWrite(STBY, HIGH);
 }
 
-// --- Motion helpers ---
+
 
 void rotate(int steps, bool forward, int stepDelayMs) {
   setCurrent(PWM_RUN);
@@ -114,14 +104,16 @@ void hold(int ms) {
   delay(ms);
 }
 
-// De-energize both coils - no torque, no heat
+// De-energize both coils. no torque, no heat
 void release() {
   setCurrent(0);
   setCoils(0, 0, 0, 0);
   digitalWrite(STBY, LOW);
 }
 
-// --- Low level ---
+
+
+
 
 void applyStep(int idx) {
   setCoils(STEP_SEQ[idx][0], STEP_SEQ[idx][1],
